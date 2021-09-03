@@ -106,20 +106,7 @@ def three(a):
     return sum
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #===================================================================================================================================================
-
 
     # <QUESTION 4>
 
@@ -149,7 +136,14 @@ def three(a):
 
 
 def four(string1, string2):
+    zipped = zip(string1, string2)
+    newList = []
 
+    for aTuple in zipped:
+        newList.append("".join(aTuple))
+
+
+    newString = "".join(newList)
 
     return newString
 
