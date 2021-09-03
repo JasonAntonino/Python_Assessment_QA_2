@@ -50,7 +50,7 @@ def one(string):
 
 #===================================================================================================================================================
 
-    # <QUESTION 2>
+    # <QUESTION 2> - Done
 
     #  Write a function which returns the boolean True if the input is only divisible by one and itself.
 
@@ -96,7 +96,14 @@ def two(num):
 
 
 def three(a):
-    return
+    sum = 0
+
+    for i in range(1, 5):
+        stringNum = str(a)
+        newNum = int(stringNum * i)
+        sum = sum + newNum
+
+    return sum
 
 
 
