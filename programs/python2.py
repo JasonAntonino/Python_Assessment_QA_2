@@ -142,30 +142,12 @@ def four(string1, string2):
     for aTuple in zipped:
         newList.append("".join(aTuple))
 
-
     newString = "".join(newList)
 
     return newString
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #===================================================================================================================================================
-
 
     # <QUESTION 5>
 
@@ -185,22 +167,13 @@ def four(string1, string2):
 def five():
     finalList = []
 
-    # while(len(finalList) != 5):
-    #     randomNum = randint(100, 200)
+    while(len(finalList) != 5):
+        randomNum = random.randint(100, 200)
 
-    #     if randomNum % 2 == 0:
-    #         finalList.append(randomNum)
+        if randomNum % 2 == 0:
+            finalList.append(randomNum)
 
     return finalList
-
-
-
-
-
-
-
-
-
 
 
 #===================================================================================================================================================
