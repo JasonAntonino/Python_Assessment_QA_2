@@ -261,30 +261,23 @@ def seven(a, b, c):
 
 
 def eight(string, num):
-    # middlePosition = (string/2) + 1
+    middleIndex = (len(string)/2)
+
+    amountToRemovePerSide = int((num-1) / 2)
+
+    startWord = string[ : int(middleIndex-amountToRemovePerSide)]
+    endWord = string[int(middleIndex+amountToRemovePerSide+1) : ]
+
+    finalWord = startWord + endWord
 
 
 
-    return
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return finalWord
 
 
 #===================================================================================================================================================
 
-    # <QUESTION 9>
+    # <QUESTION 9> - Done
 
     # Given two string inputs, if one can be made from the other return the boolean True, if not return the boolean False.
 
@@ -322,11 +315,9 @@ def nine(string1, string2):
     return False
 
 
-
-
 #===================================================================================================================================================
 
-    # <QUESTION 10>
+    # <QUESTION 10> - Done
 
     # Write a function which takes 2 integers greater than 0, X,Y as input and generates a 2-dimensional array.
 
