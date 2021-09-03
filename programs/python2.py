@@ -301,18 +301,25 @@ def eight(string, num):
 
 def nine(string1, string2):
     # make sure string1 is the shortest of the two
+    
+    if len(string1) > len(string2):
+        temp = string2
+        string2 = string1
+        string1 = temp
 
-    # if string1 in string2:
-    #     return True
+
+    string2CharList = list(string2)
+    counter = 0
+
+    for char in string1:
+        if char in string2CharList:
+            string2CharList.remove(char)
+            counter = counter + 1
+
+    if counter == len(string1):
+        return True
 
     return False
-
-
-
-
-
-
-
 
 
 
