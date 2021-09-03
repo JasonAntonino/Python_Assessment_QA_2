@@ -68,20 +68,13 @@ def one(string):
 
 def two(num):
     return
-
-
-
-
-
-
-
-
+    # if num % 1 == 0 and num % num == 0:
+    #     return True
+    # else:
+    #     return False
 
 
 #===================================================================================================================================================
-
-
-
 
     # <QUESTION 3>
 
@@ -145,7 +138,9 @@ def three(a):
 
 
 def four(string1, string2):
-    return
+
+
+    return newString
 
 
 
@@ -183,7 +178,15 @@ def four(string1, string2):
 
 
 def five():
-    return
+    finalList = []
+
+    # while(len(finalList) != 5):
+    #     randomNum = randint(100, 200)
+
+    #     if randomNum % 2 == 0:
+    #         finalList.append(randomNum)
+
+    return finalList
 
 
 
@@ -216,7 +219,11 @@ def five():
 
 
 def six(string):
-    return
+    stringLowered = string.lower()
+
+    if stringLowered.endswith("py"):
+        return True
+    return False
 
 
 
