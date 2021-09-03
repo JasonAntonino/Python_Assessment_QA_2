@@ -21,7 +21,7 @@ import random
 
 #===================================================================================================================================================
 
-# <QUESTION 1>
+# <QUESTION 1> - Done
 
 # Given a string, return a string where for every char in the original string, there are three chars.
 
@@ -67,11 +67,15 @@ def one(string):
 
 
 def two(num):
-    return
-    # if num % 1 == 0 and num % num == 0:
-    #     return True
-    # else:
-    #     return False
+    # return
+    for i in range(1, num+1):
+        if i == num or i == 1:
+            continue
+        else:
+            if num % i == 0:
+                return False
+    
+    return True
 
 
 #===================================================================================================================================================
@@ -224,17 +228,6 @@ def six(string):
     if stringLowered.endswith("py"):
         return True
     return False
-
-
-
-
-
-
-
-
-
-
-
 
 
 
