@@ -17,6 +17,10 @@ import random
 # Type help() or for example help(str)
 
 
+
+
+#===================================================================================================================================================
+
 # <QUESTION 1>
 
 # Given a string, return a string where for every char in the original string, there are three chars.
@@ -32,7 +36,19 @@ import random
 
 
 def one(string):
-    return
+    charList = []
+
+    for char in string:                 #Iterates through each character
+        for i in range(3):              #Iterates 3 times per character
+            charList.append(char)
+    
+    outputString = "".join(charList)    #Makes the list into one string
+
+    return outputString
+
+
+
+#===================================================================================================================================================
 
     # <QUESTION 2>
 
@@ -53,6 +69,20 @@ def one(string):
 def two(num):
     return
 
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
+
+
+
     # <QUESTION 3>
 
     # Write a function which takes an integer input, a, and returns the sum a+aa+aaa+aaaa.
@@ -70,6 +100,22 @@ def two(num):
 
 def three(a):
     return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
 
     # <QUESTION 4>
 
@@ -101,6 +147,26 @@ def three(a):
 def four(string1, string2):
     return
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
+
     # <QUESTION 5>
 
     # Write a function to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
@@ -118,6 +184,19 @@ def four(string1, string2):
 
 def five():
     return
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
 
     # <QUESTION 6>
 
@@ -138,6 +217,22 @@ def five():
 
 def six(string):
     return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
 
     # <QUESTION 7>
 
@@ -164,6 +259,23 @@ def six(string):
 def seven(a, b, c):
     return
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
     # <QUESTION 8>
 
     # Given a string and an integer, n, return a string that removes n letters from the 'middle' of the string.
@@ -183,6 +295,23 @@ def seven(a, b, c):
 def eight(string, num):
     return
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
+
     # <QUESTION 9>
 
     # Given two string inputs, if one can be made from the other return the boolean True, if not return the boolean False.
@@ -201,6 +330,18 @@ def eight(string, num):
 def nine(string1, string2):
     # make sure string1 is the shortest of the two
     return
+
+
+
+
+
+
+
+
+
+
+
+#===================================================================================================================================================
 
     # <QUESTION 10>
 
