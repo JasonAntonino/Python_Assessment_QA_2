@@ -16,9 +16,6 @@ import random
 
 # Type help() or for example help(str)
 
-
-
-
 #===================================================================================================================================================
 
 # <QUESTION 1> - Done
@@ -194,7 +191,6 @@ def five():
     # <HINT>
     # There are no hints for this question.
 
-
 def six(string):
     stringLowered = string.lower()
 
@@ -202,12 +198,10 @@ def six(string):
         return True
     return False
 
-
-
 #===================================================================================================================================================
 
 
-    # <QUESTION 7>
+    # <QUESTION 7> - Done
 
     # Given three ints, a b c, one of them is small, one is medium and one is large.
 
@@ -244,7 +238,7 @@ def seven(a, b, c):
 
 #===================================================================================================================================================
 
-    # <QUESTION 8>
+    # <QUESTION 8> - Done
 
     # Given a string and an integer, n, return a string that removes n letters from the 'middle' of the string.
 
@@ -262,15 +256,11 @@ def seven(a, b, c):
 
 def eight(string, num):
     middleIndex = (len(string)/2)
-
     amountToRemovePerSide = int((num-1) / 2)
 
     startWord = string[ : int(middleIndex-amountToRemovePerSide)]
     endWord = string[int(middleIndex+amountToRemovePerSide+1) : ]
-
     finalWord = startWord + endWord
-
-
 
     return finalWord
 
@@ -299,7 +289,6 @@ def nine(string1, string2):
         temp = string2
         string2 = string1
         string1 = temp
-
 
     string2CharList = list(string2)
     counter = 0
@@ -335,7 +324,6 @@ def nine(string1, string2):
 
 def ten(a, b):
     outerList = []
-    
 
     for i in range(b):
         innerList = []
