@@ -261,6 +261,10 @@ def seven(a, b, c):
 
 
 def eight(string, num):
+    # middlePosition = (string/2) + 1
+
+
+
     return
 
 
@@ -297,7 +301,11 @@ def eight(string, num):
 
 def nine(string1, string2):
     # make sure string1 is the shortest of the two
-    return
+
+    # if string1 in string2:
+    #     return True
+
+    return False
 
 
 
@@ -328,4 +336,13 @@ def nine(string1, string2):
 
 
 def ten(a, b):
-    return
+    outerList = []
+    
+
+    for i in range(b):
+        innerList = []
+        for j in range(a):
+            innerList.append(i*j)
+
+        outerList.append(innerList)
+    return outerList
