@@ -80,7 +80,7 @@ def two(num):
 
 #===================================================================================================================================================
 
-    # <QUESTION 3>
+    # <QUESTION 3> - Done
 
     # Write a function which takes an integer input, a, and returns the sum a+aa+aaa+aaaa.
 
@@ -108,7 +108,7 @@ def three(a):
 
 #===================================================================================================================================================
 
-    # <QUESTION 4>
+    # <QUESTION 4> - Done
 
     # Given two Strings of equal length, 'merge' them into one String.
 
@@ -149,7 +149,7 @@ def four(string1, string2):
 
 #===================================================================================================================================================
 
-    # <QUESTION 5>
+    # <QUESTION 5> - Done
 
     # Write a function to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
 
@@ -178,8 +178,7 @@ def five():
 
 #===================================================================================================================================================
 
-
-    # <QUESTION 6>
+    # <QUESTION 6> - Done
 
     # Given a string, return the boolean True if it ends in "py", and False if not.
 
@@ -231,21 +230,16 @@ def six(string):
 
 
 def seven(a, b, c):
-    return
+    numList = []
+    numList.append(a)
+    numList.append(b)
+    numList.append(c)
+    numList.sort()
 
+    if (numList[2] - numList[1]) == (numList[1] - numList[0]):
+        return True
 
-
-
-
-
-
-
-
-
-
-
-
-
+    return False
 
 
 #===================================================================================================================================================
